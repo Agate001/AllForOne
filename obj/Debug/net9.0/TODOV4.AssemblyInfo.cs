@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TODOV4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94f8b22f6835710ad020d9f3bac4aa3cfba3b124")]
 [assembly: System.Reflection.AssemblyProductAttribute("TODOV4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TODOV4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
