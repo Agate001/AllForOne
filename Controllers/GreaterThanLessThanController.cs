@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Api.Services;
+using AllForOne.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AllForOne.Controllers
