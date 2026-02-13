@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AllForOne.Services
+namespace AllForOne.services
 {
-    public class GreaterThanLessThanService
+    public class Greaterlessthan
     {
-        public string ReturnStatements(string input1, string input2)
+         public string ReturnStatements(string input1, string input2)
         {
             if (double.TryParse(input1, out double num1) && double.TryParse(input2, out double num2))
             {
