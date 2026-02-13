@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Api.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Api.Controllers
+namespace AllForOne.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class GreaterThanLessThanController : ControllerBase
     {
         private readonly GreaterThanLessThanService _GreaterThanLessThanService;

@@ -551,11 +551,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlo\\Desktop\\lev2 (1)\\AllForOne\\TODOV4.csproj",
+      "projectUniqueName": "C:\\Users\\carlo\\Desktop\\AllForOne\\TODOV4.csproj",
       "projectName": "TODOV4",
-      "projectPath": "C:\\Users\\carlo\\Desktop\\lev2 (1)\\AllForOne\\TODOV4.csproj",
+      "projectPath": "C:\\Users\\carlo\\Desktop\\AllForOne\\TODOV4.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlo\\Desktop\\lev2 (1)\\AllForOne\\obj\\",
+      "outputPath": "C:\\Users\\carlo\\Desktop\\AllForOne\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
