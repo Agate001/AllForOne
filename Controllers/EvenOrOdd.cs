@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AllForOne.services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,15 +7,17 @@ namespace AllForOne.Controllers
     [Route("api/[controller]")]
     public class EvenOrOdd : ControllerBase
     {
-        private readonly OddEven _OddCheckerService;
+        private readonly OddEven _oddCheckerService;
+
         public EvenOrOdd(OddEven oddCheckerService)
         {
-            _OddCheckerService = oddCheckerService;
+            _oddCheckerService = oddCheckerService;
         }
+
         [HttpGet("get/{number}")]
-        public string GuessIt(int number)
+        public string CheckNumber(int number)
         {
-            return _OddCheckerService.oddEvenCheck(number);
+            return _oddCheckerService.OddEvenCheck(number);
         }
     }
 }
