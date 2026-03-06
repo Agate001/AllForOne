@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using AllForOne.services;
 
@@ -11,17 +7,17 @@ namespace AllForOne.Controllers
     [Route("api/[controller]")]
     public class GreaterThanLessThan : ControllerBase
     {
-        private readonly Greaterlessthan _greaterLessThanService;
+        private readonly GreaterLessThan _greaterLessThanService;
 
-        public GreaterThanLessThan(Greaterlessthan greaterLessThanService)
+        public GreaterThanLessThan(GreaterLessThan greaterLessThanService)
         {
             _greaterLessThanService = greaterLessThanService;
         }
 
-        [HttpGet("compare/{input1}/{input2}")]
-        public string Compare(string input1, string input2)
+        [HttpGet("compare/{num1}/{num2}")]
+        public string Compare(double num1, double num2)
         {
-            return _greaterLessThanService.ReturnStatements(input1, input2);
+            return _greaterLessThanService.ReturnStatements(num1, num2);
         }
     }
 }

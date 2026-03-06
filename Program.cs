@@ -23,6 +23,7 @@ builder.Services.AddScoped<AllForOne.services.RestrauntPicker>();
 builder.Services.AddScoped<AllForOne.services.StringReverse>();
 builder.Services.AddScoped<AllForOne.services.NumberReverse>();
 builder.Services.AddScoped<AllForOne.services.GuessIt>();
+builder.Services.AddScoped<AllForOne.services.GreaterLessThan>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
